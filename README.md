@@ -2,6 +2,9 @@
 
 [![Build status](https://travis-ci.org/buzzySmile/qBreakpad.svg?branch=master)](https://travis-ci.org/buzzySmile/qBreakpad)
 
+
+
+
 qBreakpad is Qt library to use google-breakpad crash reporting facilities (and using it conviniently).
 Supports
 * Windows (but crash dump decoding will not work with MinGW compiler)
@@ -42,3 +45,23 @@ Getting started with Google Breakpad
 https://chromium.googlesource.com/breakpad/breakpad/+/master/docs/getting_started_with_breakpad.md
 
 Detail description about integration `qBreakpad` into your system and platform you could find in **[Wiki](https://github.com/buzzySmile/qBreakpad/wiki)**.
+
+
+----------------
+Ekstra Yapılacaklar
+
+breadpad projesini aşağıdaki linkten indirebilirsin
+
+address : https://chromium.googlesource.com/breakpad/breakpad/
+
+Linux syscall support projesini aşağıdaki linkten indirebilirsin
+
+address : https://chromium.googlesource.com/linux-syscall-support
+
+```bash
+$ git clone https://chromium.googlesource.com/breakpad/breakpad
+$ git clone https://chromium.googlesource.com/linux-syscall-support
+```
+
+Eğer -> qBreakpad\third_party\breakpad boş ise veya qBreakpad\third_party\lss boş ise yukarıdaki linklerden indirip yerli yerine koyabilirsin.
+Ayriyeten extras içinede koyuldu oradan işlem yapılabilir.
